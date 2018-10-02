@@ -1,21 +1,41 @@
 .header {
-  background-image: url("http://hdwallpapers2013.com/wp-content/uploads/2014/01/Mouthwatering-Pizza.jpg") !important;
+  background-image: url("../imgs/pizza7.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
 }
 
-.header .nav {
-  border: none !important;
+.header .nav.nav-style {
+  border: none;
+  padding-top: 1.5em;
+}
+
+.header .nav.nav-style li a.nav-link {
+  color: white;
+  font-family: 'Charmonman' cursive;
 }
 
 .header .jumbotron {
   text-align: center;
   color: white;
-  height: 80vh;
-  width: 100%;
+  height: 85%;
   background-color: transparent !important;
 }
 
-.header .jumbotron .h1 {
-  padding-top: 5em;
+.header .jumbotron h1 {
+  padding-top: 1.8em;
+  font-family: 'Charmonman', cursive;
+  padding-bottom: 1.7em;
+  font-size: 5em;
+  letter-spacing: 0.05em;
+}
+
+.header .jumbotron p {
+  font-family: 'Charmonman', cursive;
+  letter-spacing: 0.1em;
+}
+
+footer {
+  color: white;
+  padding: 0.5em 0;
 }
