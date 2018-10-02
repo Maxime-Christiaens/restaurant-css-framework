@@ -10,7 +10,6 @@
                 a.nav-link{
                     color: white;
                     font-family: 'Charmonman' cursive;
-
                     img{
                         //width: 52px!important;
                         //height: auto;
@@ -24,11 +23,18 @@
         height: 85%;
         background-color: rgba(0,0,0,0)!important;
         h1{
-            padding-top: 1.8em;
+            margin-top: 1.8em;
             font-family: 'Charmonman', cursive;
-            padding-bottom: 1.7em;
+            margin-bottom: 1.7em;
             font-size: 5em;
             letter-spacing: 0.05em;
+            background-color: rgba(140,73,39,0.5);
+            border-radius: 60px;
+            padding-top: 0.3em;
+            padding-bottom: 0.1em;
+            padding-left: 0.2em;
+            padding-right: 0.2em;
+            display: inline-block;//tjs un block + comportement en inline
         }
         p{
             font-family: 'Charmonman', cursive;
@@ -40,6 +46,7 @@
 footer{
     color: white;;
     padding: 0.5em 0;
+    font-family: 'Charmonman', cursive;
 }
 
 
