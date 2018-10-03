@@ -131,6 +131,7 @@
 
 .header .list-group-item.active {
   background-color: #a9ae60;
+  border: 0.5px solid #7e654a;
 }
 
 footer {
