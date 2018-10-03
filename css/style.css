@@ -1,25 +1,26 @@
-/* line 1, C:/Users/Maxou/Desktop/becode_projects/restaurant-css-framework-master/scss/style.scss */
 .header {
   background-image: url("../imgs/pizza7.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  /*.nav.nav-style{
+        border: none;
+        padding: 0.1em 0;
+        background-color: black;
+            li{
+                a.nav-link{
+                    color: white;
+                    font-family: 'Charmonman' cursive;
+                    img{
+                        //width: 52px!important;
+                        //height: auto;
+                    }
+                }
+            }
+        }
+        */
 }
 
-/* line 6, C:/Users/Maxou/Desktop/becode_projects/restaurant-css-framework-master/scss/style.scss */
-.header .nav.nav-style {
-  border: none;
-  padding: 0.1em 0;
-  background-color: black;
-}
-
-/* line 11, C:/Users/Maxou/Desktop/becode_projects/restaurant-css-framework-master/scss/style.scss */
-.header .nav.nav-style li a.nav-link {
-  color: white;
-  font-family: 'Charmonman' cursive;
-}
-
-/* line 21, C:/Users/Maxou/Desktop/becode_projects/restaurant-css-framework-master/scss/style.scss */
 .header .jumbotron {
   text-align: center;
   color: white;
@@ -27,7 +28,6 @@
   background-color: transparent !important;
 }
 
-/* line 26, C:/Users/Maxou/Desktop/becode_projects/restaurant-css-framework-master/scss/style.scss */
 .header .jumbotron h1 {
   margin-top: 1.8em;
   font-family: 'Charmonman', cursive;
@@ -43,18 +43,14 @@
   display: inline-block;
 }
 
-/* line 40, C:/Users/Maxou/Desktop/becode_projects/restaurant-css-framework-master/scss/style.scss */
 .header .jumbotron p {
   font-family: 'Charmonman', cursive;
   letter-spacing: 0.5em;
 }
 
-/* line 46, C:/Users/Maxou/Desktop/becode_projects/restaurant-css-framework-master/scss/style.scss */
 footer {
   color: white;
   padding: 0.5em 0;
   font-family: 'Charmonman', cursive;
   background-color: black;
 }
-
-/*# sourceMappingURL=../css/style.map */
