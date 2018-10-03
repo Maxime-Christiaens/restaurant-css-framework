@@ -3,44 +3,72 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    /*.nav.nav-style{
-        border: none;
-        padding: 0.1em 0;
-        background-color: black;
-            li{
-                a.nav-link{
-                    color: white;
-                    font-family: 'Charmonman' cursive;
-                    img{
-                        //width: 52px!important;
-                        //height: auto;
-                    }
-                }
+    @media (max-width: 767.98px){
+        background-position: center;
+        height: inherit;
+        .dropdown-menu.dropy.show{
+            /*.header{
+                height: inherit;
+            }
+            */
+        }
+        
+    }
+    nav.bg-dark{
+        font-family: 'Charmonman', cursive;
+        background-color: black!important;
+        a{
+            color:white;    
+        }
+        div{
+            .nav.nav-style{
+            border: none;
+            padding: 0.1em 0;
+            background-color: black;
             }
         }
-        */
+    }
+    .dropdown-menu.dropy.show{
+        a#connard{
+            color:rgb(224, 15, 15)!important;
+        }
+    }
+    a.dropdown-item{
+        color:black!important;
+    }
+    .navbar-light .navbar-toggler .navbar-toggler-icon{
+        color: white!important;
+    }
     .jumbotron{
         text-align: center;
         color: white;
         height: 85%;
         background-color: rgba(0,0,0,0)!important;
+        @media (max-width: 767.98px){
+            height: 60%;
+        }
         h1{
-            margin-top: 1.8em;
+            display: inline-block;//tjs un block + comportement en inline
             font-family: 'Charmonman', cursive;
-            margin-bottom: 1.7em;
-            font-size: 6em;
-            letter-spacing: 0.03em;
             background-color: rgba(140,73,39,0.5);
             border-radius: 60px;
-            padding-top: 0.3em;
-            padding-bottom: 0.1em;
-            padding-left: 0.2em;
-            padding-right: 0.2em;
-            display: inline-block;//tjs un block + comportement en inline
+            font-size: 6em;
+            letter-spacing: 0.03em;
+            margin: 1.8em 0 1.7em 0;
+            padding: 0.3em 0.2em 0.1em 0.2em;
+            @media (max-width: 767.98px) {
+                font-size: 2em;
+                margin: 0 0 1em 0;
+                padding:0.1em 0 0.1em 0;
+                border-radius: 10px;
+            }           
         }
         p{
             font-family: 'Charmonman', cursive;
-            letter-spacing: 0.5em;
+            letter-spacing: 0.1em;
+            @media (max-width: 767.98px) {
+                font-size: 1.2em;
+            }
         }
     }
 }
