@@ -89,6 +89,14 @@
   }
 }
 
+.header #carouselExampleIndicators {
+  width: 80%;
+  height: 80vh;
+  border: 25px solid #361e11;
+  overflow: hidden;
+  margin: 2.5em auto auto auto;
+}
+
 footer {
   color: white;
   padding: 0.5em 0;
