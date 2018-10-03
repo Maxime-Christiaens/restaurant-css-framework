@@ -97,6 +97,42 @@
   margin: 2.5em auto auto auto;
 }
 
+.header .menu.pizza-yolo {
+  font-family: 'Charmonman', cursive;
+  background-color: #8c4927;
+  width: 80%;
+  height: 80vh;
+  border: 25px solid #361e11;
+  color: white;
+  overflow: hidden;
+  margin: 2.5em auto 2.5em auto;
+}
+
+.header .menu.pizza-yolo div h2 {
+  margin: 1.1em 0 0 0;
+  font-size: 4em;
+}
+
+.header #list-tab {
+  width: 444px;
+  height: 29.2vh;
+}
+
+.header #nav-tabContent {
+  width: 888px;
+  height: 29.2vh;
+  overflow: hidden;
+}
+
+.header .list-group-item {
+  background-color: #7e654a;
+  color: white;
+}
+
+.header .list-group-item.active {
+  background-color: #a9ae60;
+}
+
 footer {
   color: white;
   padding: 0.5em 0;

@@ -70,7 +70,7 @@
             }
         }
     }
-
+//page-carousel
 #carouselExampleIndicators{
     width: 80%;
     height: 80vh;
@@ -78,7 +78,40 @@
     overflow: hidden;
     margin: 2.5em auto auto auto;
 }
-
+//page-menu
+.menu.pizza-yolo{
+    font-family: 'Charmonman', cursive;
+    background-color: rgba(140,73,39,1);
+    width: 80%;
+    height: 80vh;
+    border: 25px solid #361e11;
+    color: white;
+    overflow: hidden;
+    margin: 2.5em auto 2.5em auto;
+    div{
+        h2{
+            margin: 1.1em 0 0 0;
+            font-size: 4em;
+        }
+    }
+}
+#list-tab{
+    width: 444px;
+    height: 29.2vh;
+    
+}
+#nav-tabContent{
+    width: 888px;
+    height: 29.2vh;
+    overflow: hidden;
+}
+.list-group-item{
+    background-color: #7e654a;
+    color: white;
+}
+.list-group-item.active{
+    background-color: #a9ae60;
+}
 }
 footer{
     color: white;;
@@ -86,6 +119,3 @@ footer{
     font-family: 'Charmonman', cursive;
     background-color: black;
 }
-
-
-
