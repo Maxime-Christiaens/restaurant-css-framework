@@ -132,9 +132,36 @@
     background-color: #a9ae60;
     border: 0.5px solid #7e654a;
 }
+//Adresse
+#adresse{
+    font-family: 'Charmonman', cursive;
+    background-color: rgba(140,73,39,1);
+    width: 80%;
+    height: 80vh;
+    border: 25px solid #361e11;
+    color: #a9ae60;
+    overflow: hidden;
+    margin: 2.5em auto 2.5em auto;  
+    h2{
+        margin-top: 0.5em;
+    }
+    div{
+        div:nth-child(1){
+            border-right: #a9ae60 1px solid;
+        }
+    }
+}
+#carte-adresse1{
+    width: 80%;
+    height: 45vh;
+}
+#carte-adresse2{
+    width: 80%;
+    height: 45vh;
+}
 //footer
 footer{
-    color: white;;
+    color: white;
     padding: 0.5em 0;
     font-family: 'Charmonman', cursive;
     background-color: black;
