@@ -71,11 +71,27 @@
         }
     }
 }
+//responsive galerie contact adresse
+.header.responsive{
+    @media (max-width: 767.98px){
+        padding: 0 0 6.55em 0;
+    }
+}
+.header.inherit{
+    @media (max-width: 767.98px){
+        height: inherit;
+    }
+}
 //acceuil -> panel
 #panel{
     background-color: #361e11;
     color: #a9ae60;
     font-family: 'Charmonman', cursive;
+    @media (max-width: 767.98px){
+        h3{
+            font-size: 1.3em;
+        }
+    }
 }
 #panel1{
     padding: 1em;
@@ -89,14 +105,24 @@
     border: 25px solid #a9ae60;
     overflow: hidden;
     margin: auto;
+    @media (max-width: 767.98px) {
+        border: 8px solid #a9ae60;
+        height: inherit;
+    }
 }
-//page-carousel
+
+//galerie
 #carouselExampleIndicators{
     width: 80%;
     height: 80vh;
     border: 25px solid #361e11;
     overflow: hidden;
     margin: 2.5em auto auto auto;
+    @media (max-width: 767.98px) {
+        border: 8px solid #a9ae60;
+        height: inherit;
+        padding: 2.5em auto;
+    }
 }
 //page-menu
 .menu.pizza-yolo{
@@ -108,21 +134,49 @@
     color: white;
     overflow: hidden;
     margin: 2.5em auto 2.5em auto;
+    @media (max-width: 767.98px) {
+        border: 8px solid #a9ae60;
+        height: 150vh;
+    }
+
     div{
         h2{
             margin: 1.1em 0 0 0;
             font-size: 4em;
+            @media (max-width: 767.98px){
+                font-size: 1.5em;
+            }
+
+        }
+    }   
+}
+#images{
+    @media (max-width: 767.98px) {
+        img{
+        display: block;
+        width: 100%;
         }
     }
 }
 #list-tab{
     width: 444px;
     height: 29.2vh;
+    @media (max-width: 767.98px){
+        width: inherit;
+        height: inherit;
+    }
 }
 #nav-tabContent{
     width: 888px;
     height: 29.2vh;
     overflow: hidden;
+    @media (max-width: 767.98px){
+        width: inherit;
+        height: inherit;
+        p{
+            margin: 2em 0 0 0;
+        }
+    }
 }
 .work.list-group-item{
     background-color: #7e654a;
@@ -141,13 +195,26 @@
     border: 25px solid #361e11;
     color: #a9ae60;
     overflow: hidden;
-    margin: 2.5em auto 2.5em auto;  
+    margin: 2.5em auto 2.5em auto;
+    @media (max-width: 767.98px) {
+        border: 8px solid #a9ae60;
+        height: inherit;
+        h2{
+            font-size: 1.8em;
+        }
+        h3{
+            font-size: 1.3em;
+        }
+    }  
     h2{
         margin-top: 0.5em;
     }
     div{
         div:nth-child(1){
             border-right: #a9ae60 1px solid;
+            @media (max-width: 767.98px){
+                border-bottom: #a9ae60 1px solid;
+            }
         }
     }
 }
@@ -169,6 +236,21 @@
     color: #a9ae60;
     overflow: hidden;
     margin: 2.5em auto 2.5em auto; 
+    @media (max-width: 767.98px) {
+        border: 8px solid #a9ae60;
+        height: inherit;
+    }
+}
+.input-formu{
+    @media (max-width: 767.98px) {
+        width: 100%;
+    }
+}
+#pff-jai-pas-dinspi{
+    height: 100%;
+}
+#options{
+    margin-top: 0.8em;
 }
 //footer
 footer{
@@ -186,4 +268,7 @@ footer{
     @media (max-width: 767.98px) {
         margin: 10px 0 5px 0;
     }
+}
+.debug{
+    border: 3px solid red;
 }

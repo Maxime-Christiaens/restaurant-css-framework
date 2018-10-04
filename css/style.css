@@ -89,10 +89,28 @@
   }
 }
 
+@media (max-width: 767.98px) {
+  .header.responsive {
+    padding: 0 0 6.55em 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .header.inherit {
+    height: inherit;
+  }
+}
+
 #panel {
   background-color: #361e11;
   color: #a9ae60;
   font-family: 'Charmonman', cursive;
+}
+
+@media (max-width: 767.98px) {
+  #panel h3 {
+    font-size: 1.3em;
+  }
 }
 
 #panel1 {
@@ -111,12 +129,27 @@
   margin: auto;
 }
 
+@media (max-width: 767.98px) {
+  #IndexCarousel {
+    border: 8px solid #a9ae60;
+    height: inherit;
+  }
+}
+
 #carouselExampleIndicators {
   width: 80%;
   height: 80vh;
   border: 25px solid #361e11;
   overflow: hidden;
   margin: 2.5em auto auto auto;
+}
+
+@media (max-width: 767.98px) {
+  #carouselExampleIndicators {
+    border: 8px solid #a9ae60;
+    height: inherit;
+    padding: 2.5em auto;
+  }
 }
 
 .menu.pizza-yolo {
@@ -130,9 +163,29 @@
   margin: 2.5em auto 2.5em auto;
 }
 
+@media (max-width: 767.98px) {
+  .menu.pizza-yolo {
+    border: 8px solid #a9ae60;
+    height: 150vh;
+  }
+}
+
 .menu.pizza-yolo div h2 {
   margin: 1.1em 0 0 0;
   font-size: 4em;
+}
+
+@media (max-width: 767.98px) {
+  .menu.pizza-yolo div h2 {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 767.98px) {
+  #images img {
+    display: block;
+    width: 100%;
+  }
 }
 
 #list-tab {
@@ -140,10 +193,27 @@
   height: 29.2vh;
 }
 
+@media (max-width: 767.98px) {
+  #list-tab {
+    width: inherit;
+    height: inherit;
+  }
+}
+
 #nav-tabContent {
   width: 888px;
   height: 29.2vh;
   overflow: hidden;
+}
+
+@media (max-width: 767.98px) {
+  #nav-tabContent {
+    width: inherit;
+    height: inherit;
+  }
+  #nav-tabContent p {
+    margin: 2em 0 0 0;
+  }
 }
 
 .work.list-group-item {
@@ -167,12 +237,31 @@
   margin: 2.5em auto 2.5em auto;
 }
 
+@media (max-width: 767.98px) {
+  #adresse {
+    border: 8px solid #a9ae60;
+    height: inherit;
+  }
+  #adresse h2 {
+    font-size: 1.8em;
+  }
+  #adresse h3 {
+    font-size: 1.3em;
+  }
+}
+
 #adresse h2 {
   margin-top: 0.5em;
 }
 
 #adresse div div:nth-child(1) {
   border-right: #a9ae60 1px solid;
+}
+
+@media (max-width: 767.98px) {
+  #adresse div div:nth-child(1) {
+    border-bottom: #a9ae60 1px solid;
+  }
 }
 
 #carte-adresse1 {
@@ -196,6 +285,27 @@
   margin: 2.5em auto 2.5em auto;
 }
 
+@media (max-width: 767.98px) {
+  #formulaire {
+    border: 8px solid #a9ae60;
+    height: inherit;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .input-formu {
+    width: 100%;
+  }
+}
+
+#pff-jai-pas-dinspi {
+  height: 100%;
+}
+
+#options {
+  margin-top: 0.8em;
+}
+
 footer {
   color: white;
   padding: 0.5em 0;
@@ -211,4 +321,8 @@ footer {
   #footer-copyright {
     margin: 10px 0 5px 0;
   }
+}
+
+.debug {
+  border: 3px solid red;
 }
