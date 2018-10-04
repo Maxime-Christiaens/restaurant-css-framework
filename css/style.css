@@ -185,6 +185,17 @@
   height: 45vh;
 }
 
+#formulaire {
+  font-family: 'Charmonman', cursive;
+  background-color: #8c4927;
+  width: 80%;
+  height: 80vh;
+  border: 25px solid #361e11;
+  color: #a9ae60;
+  overflow: hidden;
+  margin: 2.5em auto 2.5em auto;
+}
+
 footer {
   color: white;
   padding: 0.5em 0;

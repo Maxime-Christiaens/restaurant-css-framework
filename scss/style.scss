@@ -159,6 +159,17 @@
     width: 80%;
     height: 45vh;
 }
+//formulaire
+#formulaire{
+    font-family: 'Charmonman', cursive;
+    background-color: rgba(140,73,39,1);
+    width: 80%;
+    height: 80vh;
+    border: 25px solid #361e11;
+    color: #a9ae60;
+    overflow: hidden;
+    margin: 2.5em auto 2.5em auto; 
+}
 //footer
 footer{
     color: white;
@@ -166,13 +177,11 @@ footer{
     font-family: 'Charmonman', cursive;
     background-color: black;
 }
-
 #icone-foot{
     a{
         color:white!important;
     }
 }
-
 #footer-copyright{
     @media (max-width: 767.98px) {
         margin: 10px 0 5px 0;
