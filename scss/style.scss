@@ -17,7 +17,7 @@
         font-family: 'Charmonman', cursive;
         background-color: black!important;
         a{
-            color:white;    
+            color: white;    
         }
         div{
             .nav.nav-style{
@@ -36,11 +36,11 @@
         color:black!important;
     }
     .navbar-light .navbar-toggler .navbar-toggler-icon{
-        color: white!important;
+        color: #a9ae60!important;
     }
     .jumbotron{
         text-align: center;
-        color: white;
+        color: #a9ae60;
         height: 85%;
         background-color: rgba(0,0,0,0)!important;
         @media (max-width: 767.98px){
@@ -49,7 +49,7 @@
         h1{
             display: inline-block;//tjs un block + comportement en inline
             font-family: 'Charmonman', cursive;
-            background-color: rgba(140,73,39,0.5);
+            background-color: rgba(54,30,17,0.7);
             border-radius: 60px;
             font-size: 6em;
             letter-spacing: 0.03em;
@@ -70,6 +70,26 @@
             }
         }
     }
+}
+//acceuil -> panel
+#panel{
+    background-color: #361e11;
+    color: #a9ae60;
+    font-family: 'Charmonman', cursive;
+}
+#panel1{
+    padding: 1em;
+}
+#panel2{
+    padding: 1em;
+}
+#IndexCarousel{
+    width: 60%;
+    height: 60vh;
+    border: 25px solid #a9ae60;
+    overflow: hidden;
+    margin: auto;
+}
 //page-carousel
 #carouselExampleIndicators{
     width: 80%;
@@ -98,25 +118,36 @@
 #list-tab{
     width: 444px;
     height: 29.2vh;
-    
 }
 #nav-tabContent{
     width: 888px;
     height: 29.2vh;
     overflow: hidden;
 }
-.list-group-item{
+.work.list-group-item{
     background-color: #7e654a;
     color: white;
 }
-.list-group-item.active{
+.work.list-group-item.active{
     background-color: #a9ae60;
     border: 0.5px solid #7e654a;
 }
-}
+//footer
 footer{
     color: white;;
     padding: 0.5em 0;
     font-family: 'Charmonman', cursive;
     background-color: black;
+}
+
+#icone-foot{
+    a{
+        color:white!important;
+    }
+}
+
+#footer-copyright{
+    @media (max-width: 767.98px) {
+        margin: 10px 0 5px 0;
+    }
 }

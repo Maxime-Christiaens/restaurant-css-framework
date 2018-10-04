@@ -42,12 +42,12 @@
 }
 
 .header .navbar-light .navbar-toggler .navbar-toggler-icon {
-  color: white !important;
+  color: #a9ae60 !important;
 }
 
 .header .jumbotron {
   text-align: center;
-  color: white;
+  color: #a9ae60;
   height: 85%;
   background-color: transparent !important;
 }
@@ -61,7 +61,7 @@
 .header .jumbotron h1 {
   display: inline-block;
   font-family: 'Charmonman', cursive;
-  background-color: rgba(140, 73, 39, 0.5);
+  background-color: rgba(54, 30, 17, 0.7);
   border-radius: 60px;
   font-size: 6em;
   letter-spacing: 0.03em;
@@ -89,7 +89,29 @@
   }
 }
 
-.header #carouselExampleIndicators {
+#panel {
+  background-color: #361e11;
+  color: #a9ae60;
+  font-family: 'Charmonman', cursive;
+}
+
+#panel1 {
+  padding: 1em;
+}
+
+#panel2 {
+  padding: 1em;
+}
+
+#IndexCarousel {
+  width: 60%;
+  height: 60vh;
+  border: 25px solid #a9ae60;
+  overflow: hidden;
+  margin: auto;
+}
+
+#carouselExampleIndicators {
   width: 80%;
   height: 80vh;
   border: 25px solid #361e11;
@@ -97,7 +119,7 @@
   margin: 2.5em auto auto auto;
 }
 
-.header .menu.pizza-yolo {
+.menu.pizza-yolo {
   font-family: 'Charmonman', cursive;
   background-color: #8c4927;
   width: 80%;
@@ -108,28 +130,28 @@
   margin: 2.5em auto 2.5em auto;
 }
 
-.header .menu.pizza-yolo div h2 {
+.menu.pizza-yolo div h2 {
   margin: 1.1em 0 0 0;
   font-size: 4em;
 }
 
-.header #list-tab {
+#list-tab {
   width: 444px;
   height: 29.2vh;
 }
 
-.header #nav-tabContent {
+#nav-tabContent {
   width: 888px;
   height: 29.2vh;
   overflow: hidden;
 }
 
-.header .list-group-item {
+.work.list-group-item {
   background-color: #7e654a;
   color: white;
 }
 
-.header .list-group-item.active {
+.work.list-group-item.active {
   background-color: #a9ae60;
   border: 0.5px solid #7e654a;
 }
@@ -139,4 +161,14 @@ footer {
   padding: 0.5em 0;
   font-family: 'Charmonman', cursive;
   background-color: black;
+}
+
+#icone-foot a {
+  color: white !important;
+}
+
+@media (max-width: 767.98px) {
+  #footer-copyright {
+    margin: 10px 0 5px 0;
+  }
 }
