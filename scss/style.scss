@@ -159,20 +159,13 @@
     }
 }
 #list-tab{
-    width: 444px;
-    height: 29.2vh;
-    @media (max-width: 992px){
-        width: inherit;
-        height: inherit;
-    }
+    width: inherit;
+    height: inherit;
 }
 #nav-tabContent{
-    width: 888px;
-    height: 29.2vh;
-    overflow: hidden;
+    width: inherit;
+    height: inherit;
     @media (max-width: 992px){
-        width: inherit;
-        height: inherit;
         p{
             margin: 2em 0 0 0;
         }
