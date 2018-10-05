@@ -5,7 +5,7 @@
   height: 100vh;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 992px) {
   .header {
     background-position: center;
     height: inherit;
@@ -52,7 +52,7 @@
   background-color: transparent !important;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 992px) {
   .header .jumbotron {
     height: 60%;
   }
@@ -69,7 +69,7 @@
   padding: 0.3em 0.2em 0.1em 0.2em;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 992px) {
   .header .jumbotron h1 {
     font-size: 2em;
     margin: 0 0 1em 0;
@@ -83,19 +83,19 @@
   letter-spacing: 0.1em;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 992px) {
   .header .jumbotron p {
     font-size: 1.2em;
   }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 992px) {
   .header.responsive {
     padding: 0 0 6.55em 0;
   }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 992px) {
   .header.inherit {
     height: inherit;
   }
@@ -107,7 +107,7 @@
   font-family: 'Charmonman', cursive;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 992px) {
   #panel h3 {
     font-size: 1.3em;
   }
@@ -129,7 +129,7 @@
   margin: auto;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 992px) {
   #IndexCarousel {
     border: 8px solid #a9ae60;
     height: inherit;
@@ -144,7 +144,7 @@
   margin: 2.5em auto auto auto;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 992px) {
   #carouselExampleIndicators {
     border: 8px solid #a9ae60;
     height: inherit;
@@ -163,7 +163,7 @@
   margin: 2.5em auto 2.5em auto;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 992px) {
   .menu.pizza-yolo {
     border: 8px solid #a9ae60;
     height: 150vh;
@@ -175,13 +175,13 @@
   font-size: 4em;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 992px) {
   .menu.pizza-yolo div h2 {
     font-size: 1.5em;
   }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 992px) {
   #images img {
     display: block;
     width: 100%;
@@ -193,7 +193,7 @@
   height: 29.2vh;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 992px) {
   #list-tab {
     width: inherit;
     height: inherit;
@@ -206,7 +206,7 @@
   overflow: hidden;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 992px) {
   #nav-tabContent {
     width: inherit;
     height: inherit;
@@ -237,7 +237,7 @@
   margin: 2.5em auto 2.5em auto;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 992px) {
   #adresse {
     border: 8px solid #a9ae60;
     height: inherit;
@@ -258,7 +258,7 @@
   border-right: #a9ae60 1px solid;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 992px) {
   #adresse div div:nth-child(1) {
     border-bottom: #a9ae60 1px solid;
   }
@@ -285,14 +285,14 @@
   margin: 2.5em auto 2.5em auto;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 992px) {
   #formulaire {
     border: 8px solid #a9ae60;
     height: inherit;
   }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 992px) {
   .input-formu {
     width: 100%;
   }
@@ -317,7 +317,7 @@ footer {
   color: white !important;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 992px) {
   #footer-copyright {
     margin: 10px 0 5px 0;
   }

@@ -3,7 +3,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    @media (max-width: 767.98px){
+    @media (max-width: 992px){
         background-position: center;
         height: inherit;
         .dropdown-menu.dropy.show{
@@ -43,7 +43,7 @@
         color: #a9ae60;
         height: 85%;
         background-color: rgba(0,0,0,0)!important;
-        @media (max-width: 767.98px){
+        @media (max-width: 992px){
             height: 60%;
         }
         h1{
@@ -55,7 +55,7 @@
             letter-spacing: 0.03em;
             margin: 1.8em 0 1.7em 0;
             padding: 0.3em 0.2em 0.1em 0.2em;
-            @media (max-width: 767.98px) {
+            @media (max-width: 992px) {
                 font-size: 2em;
                 margin: 0 0 1em 0;
                 padding:0.1em 0 0.1em 0;
@@ -65,7 +65,7 @@
         p{
             font-family: 'Charmonman', cursive;
             letter-spacing: 0.1em;
-            @media (max-width: 767.98px) {
+            @media (max-width: 992px) {
                 font-size: 1.2em;
             }
         }
@@ -73,12 +73,12 @@
 }
 //responsive galerie contact adresse
 .header.responsive{
-    @media (max-width: 767.98px){
+    @media (max-width: 992px){
         padding: 0 0 6.55em 0;
     }
 }
 .header.inherit{
-    @media (max-width: 767.98px){
+    @media (max-width: 992px){
         height: inherit;
     }
 }
@@ -87,7 +87,7 @@
     background-color: #361e11;
     color: #a9ae60;
     font-family: 'Charmonman', cursive;
-    @media (max-width: 767.98px){
+    @media (max-width: 992px){
         h3{
             font-size: 1.3em;
         }
@@ -105,7 +105,7 @@
     border: 25px solid #a9ae60;
     overflow: hidden;
     margin: auto;
-    @media (max-width: 767.98px) {
+    @media (max-width: 992px) {
         border: 8px solid #a9ae60;
         height: inherit;
     }
@@ -118,7 +118,7 @@
     border: 25px solid #361e11;
     overflow: hidden;
     margin: 2.5em auto auto auto;
-    @media (max-width: 767.98px) {
+    @media (max-width: 992px) {
         border: 8px solid #a9ae60;
         height: inherit;
         padding: 2.5em auto;
@@ -134,7 +134,7 @@
     color: white;
     overflow: hidden;
     margin: 2.5em auto 2.5em auto;
-    @media (max-width: 767.98px) {
+    @media (max-width: 992px) {
         border: 8px solid #a9ae60;
         height: 150vh;
     }
@@ -143,7 +143,7 @@
         h2{
             margin: 1.1em 0 0 0;
             font-size: 4em;
-            @media (max-width: 767.98px){
+            @media (max-width: 992px){
                 font-size: 1.5em;
             }
 
@@ -151,7 +151,7 @@
     }   
 }
 #images{
-    @media (max-width: 767.98px) {
+    @media (max-width: 992px) {
         img{
         display: block;
         width: 100%;
@@ -161,7 +161,7 @@
 #list-tab{
     width: 444px;
     height: 29.2vh;
-    @media (max-width: 767.98px){
+    @media (max-width: 992px){
         width: inherit;
         height: inherit;
     }
@@ -170,7 +170,7 @@
     width: 888px;
     height: 29.2vh;
     overflow: hidden;
-    @media (max-width: 767.98px){
+    @media (max-width: 992px){
         width: inherit;
         height: inherit;
         p{
@@ -196,7 +196,7 @@
     color: #a9ae60;
     overflow: hidden;
     margin: 2.5em auto 2.5em auto;
-    @media (max-width: 767.98px) {
+    @media (max-width: 992px) {
         border: 8px solid #a9ae60;
         height: inherit;
         h2{
@@ -212,7 +212,7 @@
     div{
         div:nth-child(1){
             border-right: #a9ae60 1px solid;
-            @media (max-width: 767.98px){
+            @media (max-width: 992px){
                 border-bottom: #a9ae60 1px solid;
             }
         }
@@ -236,13 +236,13 @@
     color: #a9ae60;
     overflow: hidden;
     margin: 2.5em auto 2.5em auto; 
-    @media (max-width: 767.98px) {
+    @media (max-width: 992px) {
         border: 8px solid #a9ae60;
         height: inherit;
     }
 }
 .input-formu{
-    @media (max-width: 767.98px) {
+    @media (max-width: 992px) {
         width: 100%;
     }
 }
@@ -265,7 +265,7 @@ footer{
     }
 }
 #footer-copyright{
-    @media (max-width: 767.98px) {
+    @media (max-width: 992px) {
         margin: 10px 0 5px 0;
     }
 }
