@@ -89,6 +89,18 @@
   }
 }
 
+.image-dimension {
+  max-width: 62%;
+  height: auto;
+  border: 25px solid #a9ae60;
+}
+
+@media (max-width: 992px) {
+  .image-dimension {
+    border: 8px solid #a9ae60;
+  }
+}
+
 @media (max-width: 992px) {
   .header.responsive {
     padding: 0 0 6.55em 0;
